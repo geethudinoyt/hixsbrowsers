@@ -1,0 +1,7 @@
+Hixs Browser Installer Return Codes
+
+0 - Installation successful
+1602 - Installation cancelled by user
+1618 - Another installation in progress
+1638 - Application already exists
+3010 - Installation successful, reboot required
