@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Developer - Hixs Browser</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            width: 100%;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            padding: 40px;
+            text-align: center;
+            animation: fadeIn 0.8s ease-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        h1 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+        .subtitle {
+            color: #666;
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+        .developer-name {
+            font-size: 1.5em;
+            color: #764ba2;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .developer-title {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 1.1em;
+        }
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin: 30px 0;
+        }
+        .link-btn {
+            display: inline-block;
+            padding: 15px 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 16px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+        }
+        .link-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+        }
+        .link-btn.github {
+            background: #24292e;
+        }
+        .link-btn.github:hover {
+            background: #2f363d;
+        }
+        .link-btn.instagram {
+            background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+        }
+        .link-btn.instagram:hover {
+            box-shadow: 0 6px 20px rgba(225, 48, 108, 0.4);
+        }
+        .about-section {
+            text-align: left;
+            margin: 30px 0;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 15px;
+        }
+        .about-section h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+        .about-section p {
+            margin-bottom: 10px;
+            font-size: 0.95em;
+        }
+        .footer {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            color: #666;
+            font-size: 14px;
+        }
+        .version {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>About Developer</h1>
+        <p class="subtitle">Meet the creator of Hixs Browser</p>
+        
+        <div class="developer-name">geethudinoyt</div>
+        <p class="developer-title">(ruthvik pedapondara)</p>
+        
+        <div class="links">
+            <a href="https://github.com/geethudinoyt" target="_blank" class="link-btn github">
+                GitHub Profile
+            </a>
+            <a href="https://www.instagram.com/geethu_dino27?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="link-btn instagram">
+                Instagram
+            </a>
+        </div>
+        
+        <div class="about-section">
+            <h2>About Hixs Browser</h2>
+            <p>Hixs Browser is a modern, privacy-focused web browser built with PyQt5 and QtWebEngine (Chromium-based rendering).</p>
+            <p>Features include:</p>
+            <ul>
+                <li>Advanced ad and tracker blocking</li>
+                <li>Dark/Light theme support</li>
+                <li>Multiple search engines</li>
+                <li>Tab management</li>
+                <li>Download manager</li>
+                <li>Privacy dashboard</li>
+            </ul>
+        </div>
+        
+        <div class="footer">
+            <p><strong>Developed by:</strong> geethudinoyt (ruthvik pedapondara)</p>
+            <p>Hixs Browser v2.1</p>
+            <span class="version">Latest Version</span>
+        </div>
+    </div>
+</body>
+</html>
